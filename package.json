@@ -1,0 +1,31 @@
+{
+  "name": "gdmui",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gandous/gdmui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gandous/gdmui/issues"
+  },
+  "homepage": "https://github.com/gandous/gdmui#readme",
+  "dependencies": {
+    "expo": "^55.0.5",
+    "react": "^19.2.4",
+    "react-native": "^0.84.1",
+    "react-native-gesture-handler": "^2.30.0",
+    "react-native-unistyles": "^3.0.24"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14"
+  }
+}

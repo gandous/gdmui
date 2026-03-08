@@ -1,0 +1,21 @@
+{
+    "extends": "expo/tsconfig.base",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/assets/*": [
+                "./assets/*"
+            ],
+            "@/*": [
+                "src/*"
+            ]
+        },
+        "moduleSuffixes": [
+            ".ios",
+            ".android",
+            ".native",
+            ".web",
+            ""
+        ],
+    }
+}
